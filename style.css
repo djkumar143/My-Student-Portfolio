@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
 
+:root{
+    --primary-color: rgb(255, 0, 170);
+}
+ 
 body{
-    font-family: "ZCOOL KuaiLe";
+    font-family: "ZCOOL QingKe HuangYou";
 }
 
 /** container **/
@@ -10,7 +14,36 @@ body{
     padding-right:1rem;
 }
 
-.container-center{
+.container-center {
     max-width:600px;
     margin: auto;
+}
+
+/** links **/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+
+}
+
+.link-secondary{
+    color:var(--primary-color);
+    border-radius:0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/**lists**/
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
 }
