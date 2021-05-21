@@ -3,6 +3,8 @@
 :root{
     --primary-color:#8B5CF6;
     --dark-grey:#6B7280;
+    --off-white:#F3F4F6;
+    --button-color:#4C1D95;
 }
  
 body{
@@ -73,6 +75,13 @@ body{
     font-weight: bold;
 }
 
+.navigation .button-design{
+    background-color: var(--button-color);
+    border-radius: 0.5rem;
+    color:white;
+
+}
+
 /**header**/
 .hero{
     padding: 2rem;
@@ -93,3 +102,34 @@ body{
 .hero .hero-heading .heading-focus{
     color:var(--primary-color);
 }
+
+/**section**/
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+    
+}
+
+.off-white{
+    background-color: var(--off-white);
+}
+
+
+/**footer**/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    color:white;
+    border-top-right-radius: 1rem;
+
+}
+
+.footer .link{
+    color:white;
+}
+
+
+
+
