@@ -6,6 +6,7 @@
     --off-white:#F3F4F6;
     --button-color:#4C1D95;
     --marquee-color:#DB2777;
+    --shade-pink:#DDD6FE;
 }
  
 body{
@@ -19,7 +20,7 @@ body{
 }
 
 .container-center {
-    max-width:600px;
+    max-width:800px;
     margin: auto;
 }
 
@@ -71,6 +72,7 @@ body{
 
 .navigation .nav-brand{
     font-weight: bold;
+    font-size: larger;
 }
 
 .navigation .link-active{
@@ -96,13 +98,23 @@ body{
     margin: auto;
 }
 
-.hero .hero-heading{
+.hero .hero-heading-one{
     padding-top: 1rem;
     color:var(--dark-grey) ;
     text-align: center;
 }
 
-.hero .hero-heading .heading-focus{
+.hero .hero-heading-two{
+    padding-top: 1rem;
+    color:var(--dark-grey) ;
+    text-align: left;
+}
+
+.hero .hero-heading-one .heading-focus{
+    color:var(--primary-color);
+}
+
+.hero .hero-heading-two .heading-focus{
     color:var(--primary-color);
 }
 
@@ -118,6 +130,14 @@ body{
 .off-white{
     background-color: var(--off-white);
     border-radius: 1rem;
+}
+
+.shade-of-pink{
+    background-color: var(--shade-pink);
+    border-radius: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    
 }
 
 
@@ -147,8 +167,20 @@ body{
     padding-left: 2rem;
 }
 
+.padding-right{
+    padding-right: 1rem;
+}
+
 .align-right{
     text-align: right;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-left{
+    text-align: left;
 }
 
 .design-two{
@@ -157,3 +189,14 @@ body{
     color:white;
 }
 
+/**image-small**/
+.image-small{
+    padding-left: 1rem;
+    max-width: 20px;
+   
+}
+
+/**spaces **/
+.margin-medium{
+    margin: 2rem;
+}
