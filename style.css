@@ -80,11 +80,10 @@ body {
     font-weight: bold;
 }
 
-.navigation .button-design {
+.button-design {
     background-color: var(--button-color);
     border-radius: 0.5rem;
     color: white;
-
 }
 
 /**header**/
