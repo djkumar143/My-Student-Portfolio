@@ -121,7 +121,7 @@ body {
 }
 @media screen and(max-width:768px){
     .header-image{
-        max-width:340px;
+        max-width:300px;
         margin:auto;
     }
 }
