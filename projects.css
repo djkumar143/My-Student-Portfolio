@@ -1,0 +1,31 @@
+.snapshot_img>img{
+    border:2px solid black;
+    border-radius: 20px;
+    transition:transform 0.2s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.snapshot_img>img:hover{
+    cursor:pointer;
+    transform:scale(1.06);
+    
+}
+
+.fullScreen:-webkit-full-screen {
+    width: auto !important;
+    height: auto !important;
+    margin:auto !important;
+}
+   .fullScreen:-moz-full-screen {
+    width: auto !important;
+    height: auto !important;
+    margin:auto !important;
+}
+   .fullScreen:-ms-fullscreen {
+    width: auto !important;
+    height: auto !important;
+    margin:auto !important;
+}     
+
+

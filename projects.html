@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>puer obedientes | Portfolio</title>
+    <title>DEEP JYOTI | Projects</title>
     <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="projects.css">
 </head>
 
 
 <body>
     <nav class="navigation container">
-        <div class="nav-brand">puer obedientes |Portfolio</div>
+        <div class="nav-brand">DEEP JYOTI | Projects</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
                 <a class="link button-design " href="/">home</a>
@@ -28,44 +29,94 @@
     </nav>
 
     <header class="hero">
-        <h1 class="hero-heading-two">You can see and know about <span class="heading-focus">My Projects</span> here.
-        </h1>
-    </header>
-    <section class="section off-white">
-        <div>
-            <h1 style="position:relative;top:-30px; " class="heading-focus">what can I devlop?? 
-                <img class="image-average" src="/images/project-arrow.svg"> </h1>
-            <h1>Not only can I devlop sites using <span class="heading-focus"> html and css</span> but also i can devlop
-                using<span class="heading-focus"> MERN stack </span></h1>
-            <h2>You can go to my <span class="heading-focus"> React website</span> using the following link:</h2>
-               <h2 class="align-center"> <a class="link link-primary" href="/projects.html"> React SPA</a></h2>
+        <div class="hero_side">
+            <h1 class="hero-heading-two">These are some of <span class="heading-focus">My Projects</span> i have worked
+                upon.
+            </h1>
+            <img class="hero-img" src="./images/project.svg" alt="My projects">
+
         </div>
-    </section>
+    </header>
+
 
     <ol class="list-non-bullet" reversed>
-        <li>
-            <h2>Take a deep breadth and enter the quiz<img class="image-small" src="/images/happy-emoji.svg">
-            </h2>
-            <small>April 2021</small>
-            <p>This is a simple CLI app built with <strong>nodeJS</strong> where you will be asked some questions about me to test how much do you know me?</p>
-            <a class="link link-primary" href="https://replit.com/@djkumar123/A-CLI-based-Quiz">Live Project</a>
 
-            <a class="link link-secondary" href="https://github.com/djkumar143/">View Source Code</a>
+        <div class="snapshot_img hero_side">
+            <img id="theImage_pirate" class="hero-img fullScreen" src="./images/pirate_snapshot.PNG" alt="pirate" onclick="showImage1()">
+            <li class="margin-medium">
+                <h2>Pirate_Talk</h2>
+                <small>July 2021</small>
+                <p>Try this <strong>Translator_app</strong>.And see the translations in popple </p>
+                <a class="link link-primary" href="pirate.html">Live Project</a>
 
-        </li>
+                <a class="link link-secondary" href="https://github.com/djkumar143/popple-translator">View Source
+                    Code</a>
+            </li>
+        </div>
+        <hr />
 
-        <li class="align-center margin-medium shade-of-pink">
-            <h2>Lets talk about some Bolliwood stuff :)</h2>
-            <small>April 2021</small>
-            <p>This is a quiz about <strong>Bolliwood Movies</strong>.So, Let the Game Begin</p>
-            <a class="link link-primary" href="https://replit.com/@djkumar123/superhero-quiz">Live Project</a>
+        <div class=" snapshot_img hero_side">
+            <li class="margin-medium">
+                <h2>Coding_banana_speak</h2>
+                <small>July 2021</small>
+                <p>Ahoy! This is <strong>Banana speak </strong>.So, type what you have in mind and see the results</p>
+                <a class="link link-primary" href="banana.html">Live Project</a>
 
-            <a class="link link-secondary" href="https://github.com/djkumar143/">View Source Code</a>
+                <a class="link link-secondary" href="https://github.com/djkumar143/coding_banana_speak">View Source
+                    Code</a>
+            </li>
+            <img id="theImage_banana" class="hero-img fullScreen" src="./images/banana_snapshot.PNG" alt="banana" onclick="showImage2() ">
+        </div>
+        <hr />
 
-        </li>
+        <div class="hero_side">
+            <li class="margin-medium">
+                <h2>Lets talk about some Bolliwood stuff :)</h2>
+                <small>June 2021</small>
+                <p>This is a quiz about <strong>Bolliwood Movies</strong>.So, Let the Game Begin</p>
+                <a class="link link-primary" href="https://replit.com/@djkumar123/Movies-quiz">Live Project</a>
+
+                <a class="link link-secondary" href="https://github.com/djkumar143/Bolliwood-movies-quiz">View Source
+                    Code</a>
+
+            </li>
+        </div>
+        <hr />
+
+        <div class="hero_side">
+            <li class="margin-medium">
+                <h2>Take a deep breadth and enter the quiz<img class="image-small" src="/images/happy-emoji.svg">
+                </h2>
+                <small>June 2021</small>
+                <p>This is a simple CLI app built with <strong>nodeJS</strong> where you will be asked some questions
+                    about
+                    me to test how much do you know me?</p>
+                <a class="link link-primary" href="https://replit.com/@djkumar123/A-CLI-based-Quiz">Live Project</a>
+
+                <a class="link link-secondary" href="https://github.com/djkumar143/cli-quiz-app">View Source Code</a>
+
+            </li>
+        </div>
+
 
 
     </ol>
+
+    <section class="section off-white">
+        <div class="align-center">
+            <div class="hero_arrow">
+                <h1 class="heading-focus">Web is Fun... </h1>
+                <img class="image-average" src="/images/project-arrow.svg">
+            </div>
+            <h1>Not only I devlop front end of web-sites using <span class="heading-focus"> html and css</span> but I
+                like to work with React , basically i like working with <span class="heading-focus"> MERN stack </span>
+            </h1>
+            <h3>You can go to my <span class="heading-focus"> React website</span> using the following link:</h3>
+            <a class="link link-primary" href="https://tech-phoenix.netlify.app"> React SPA</a>
+        </div>
+    </section>
+
+    <script src="projects.js" type="text/javascript"></script>
 
 </body>
 

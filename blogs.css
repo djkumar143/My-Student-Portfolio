@@ -1,0 +1,67 @@
+.blogs_header{
+    margin:50px;
+
+}
+
+.blogs_header>img{
+    margin-left: -5px;
+}
+
+.header_info{
+    font-family: 'Tourney', cursive;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 7rem;
+    
+}
+
+.header_info>h1{
+    font-size:40px;
+    color:#F59E0B;
+}
+.header_info>p{
+    font-size:25px;
+}
+
+.header_line{
+    margin-top:-50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.header_line>img{
+    height: 180px;
+    width:100%;
+    
+}
+
+.blogs_contents{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin:20px;
+    padding:10px;
+    
+}
+
+.blogs_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
