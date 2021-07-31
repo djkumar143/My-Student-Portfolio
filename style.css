@@ -119,7 +119,12 @@ body {
     border-radius:50px;
 
 }
-
+@media screen and(max-width:768px){
+    .header-image{
+        max-width:340px;
+        margin:auto;
+    }
+}
 
 .header-info {
     display: flex;
