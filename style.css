@@ -285,11 +285,23 @@ body {
     box-shadow: 5px 8px 8px rgba(0,0,0,0.2);
 
 }
+@media screen and (max-width:768px){
+    .section-projectsVideo{
+       width:360px;
+       margin:auto;
+    }
+}
 
 .section-projectsVideo>video {
     border-radius: 10px;
     overflow: hidden;
 
+}
+@media screen and (max-width:768px){
+    .section-projectsVideo>video{
+        max-width:340px;
+        margin:auto;
+    }
 }
 
 .section-blogs {
