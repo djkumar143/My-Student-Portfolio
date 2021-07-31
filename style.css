@@ -294,7 +294,6 @@ body {
 
 .section-projectsVideo>video {
     border-radius: 10px;
-    overflow: hidden;
 
 }
 @media screen and (max-width:768px){
@@ -320,9 +319,21 @@ body {
     box-shadow: -5px 8px 8px rgba(0,0,0,0.2);
 
 }
+@media screen and (max-width:768px){
+    .section-blogsVideo{
+       width:360px;
+       margin:auto;
+    }
+}
 
 .section-blogsVideo>video {
     border-radius: 10px;
+}
+@media screen and (max-width:768px){
+    .section-blogsVideo>video{
+        max-width:340px;
+        margin:auto;
+    }
 }
 
 .section-blogsInfo {
