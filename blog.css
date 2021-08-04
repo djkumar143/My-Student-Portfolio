@@ -21,6 +21,15 @@ font-family: 'Share Tech Mono', monospace; */
     --color-section-shadow: #999999;
     --color-dark-blue: #1c2960;
 }
+
+.link {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-size: 22px;
+    letter-spacing: 0.1rem;
+
+}
+
 body{
     font-family: 'Ubuntu', sans-serif;
     background-color: var(--color-grey);
@@ -37,6 +46,11 @@ body{
     position:sticky;
     top:-80px;
     z-index:10;
+}
+@media screen and (max-width:480px){
+    .nav{
+        top:-120px;
+    }
 }
 
 .nav_container{
@@ -60,23 +74,24 @@ body{
     font-family: 'Roboto Mono', monospace;
     color:var(--color-off-white);
     letter-spacing: 0.2rem;
-
+    text-align: center;
 
 }
 
 .btnContainer{
-    padding:1rem 0.2rem;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
 }
 
+
 .btn{
-    margin:auto;
-    padding:10px 20px;
+    margin:0.5rem auto;
+    padding:0.5rem;
     border-radius:50px;
     background-color: var(--color-grey);
 }
+
 
 .btn:hover{
     cursor: pointer;
@@ -88,7 +103,7 @@ body{
     font-size: 20px;
     font-weight:700;
     color:var(--color-off-white-light);
-    padding:0.5rem 1rem;
+    padding:0.5rem;
 
 }
 
@@ -148,14 +163,40 @@ body{
 
 
 .content-desc .image>img{
+    width:800px;
     padding:1rem;
     margin:auto;
     border-radius:30px;
     
 }
+@media screen and (max-width:768px){
+    .content-desc .image>img{
+        width:460px;
 
+    }
+}
+@media screen and (max-width:480px){
+    .content-desc .image>img{
+        width:300px;
+    }
+}
 
+.content-desc>ul{
+    max-width: 600px;
+    margin:auto;
+    font-size:20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight:bold;
 
+}
+
+.content-desc>ul>li{
+    padding:0.5rem;
+
+}
+.content-desc>ul>li:hover{
+    color:green;
+}
 
 
 
