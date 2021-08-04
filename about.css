@@ -175,6 +175,12 @@ body {
     text-shadow:2px 3px 3px var(--color-primary);
 }
 
+@media screen and (max-width:768px){
+    .content>h2{
+        font-size:15px;
+    }
+}
+
 
 
 
