@@ -6,13 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEEP JYOTI | Portfolio</title>
-    <link href="style.css" rel="stylesheet" />
+    <link href="index.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 
 <body>
-    <nav class="navigation">
+
+    <!--overlay-->
+    <div class="overlay overlay-slide-left" id="overlay">
+        <!--menu items-->
+        <nav>
+            <ul>
+                <li id="nav-1" class="slide-out-1"><a id="a-1" href="#intro">Intro</a></li>
+                <li id="nav-2" class="slide-out-2"><a id="a-2" href="#skills">Skills</a></li>
+                <li id="nav-3" class="slide-out-3"><a id="a-3" href="#projects">Projects</a></li>
+                <li id="nav-4" class="slide-out-4"><a id="a-4" href="#blogs">Blogs</a></li>
+                <li id="nav-5" class="slide-out-5"><a id="a-5" href="#more">More</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--menu bars-->
+    <div class="menu-bars" id="menu-bars">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+
+    <div class="navigation">
         <div class="nav-heading">
             <h2>DEEP JYOTI |<span class="highlight">Portfolio</span></h2>
         </div>
@@ -28,9 +50,9 @@
             </div>
         </div>
 
-    </nav>
+    </div>
 
-    <header class="header container">
+    <header id="intro" class="header container">
         <img class="header-image" src="/images/my_image.png" alt="my_image">
         <hr />
         <div class="header-info">
@@ -53,7 +75,7 @@
         </div>
     </header>
 
-    <section class="section off-white">
+    <section id="skills" class="section off-white">
         <div class="section-skills">
             <h2 class="style"><span>&#60;</span>Skills<span>&#62;</span></h2><br />
             <div class="section-skillsHeading">
@@ -117,7 +139,7 @@
         </div>
     </section>
 
-    <section class="section off-white-light">
+    <section id="projects" class="section off-white-light">
         <h2 class="style"><span>&#60;</span>Projects<span>&#62;</span></h2><br />
         <div class="section-projects">
 
@@ -139,7 +161,7 @@
         <h2 style="text-align: right;" class="style"><span>&#60;</span>/Projects<span>&#62;</span></h2><br />
     </section>
 
-    <section class="section off-white-light">
+    <section id="blogs" class="section off-white-light">
         <h2 class="style"><span>&#60;</span>Blogs<span>&#62;</span></h2><br />
         <div class="section-blogs">
 
@@ -166,7 +188,7 @@
     </section>
 
 
-    <footer class="footer">
+    <footer id="more" class="footer">
         <div class="footer-quotes">
             <h2><i> “The battles that count aren't the ones for gold medals. The struggles within yourself—the invisible, inevitable battles inside all of us—that's where it's at."</i> —Jesse Owens</h2>
         </div>
@@ -185,7 +207,7 @@
     </footer>
 
 
-
+<script src="script.js" type="text/Javascript"></script>
 </body>
 
 
